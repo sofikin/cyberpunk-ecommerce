@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shop Example</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css"
+      integrity="sha512-+1GzNJIJQ0SwHimHEEDQ0jbyQuglxEdmQmKsu8KI7QkMPAnyDrL9TAnVyLPEttcTxlnLVzaQgxv2FpLCLtli0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"
+      integrity="sha512-sww7U197vVXpRSffZdqfpqDU2SNoFvINLX4mXt1D6ZecxkhwcHmLj3QcL2cJ/aCxrTkUcaAa6EGmPK3Nfitygw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <a href="#" class="active" target="_blank">Home</a>
+          <a href="#" target="_blank">Shop All</a>
+          <a href="#" target="_blank">Tops</a>
+          <a href="#" target="_blank">Pants</a>
+          <a href="#" target="_blank">Skirts</a>
+          <a href="#" target="_blank">Accessories</a>
+        </ul>
+      </div>
+      <div class="theme-switch">
+        <div class="switch"></div>
+      </div>
+    </div>
+
+    <!--Landing page slide, changes image with transition-->
+    <div class="slides">
+      <img id="slide" src="img/slide1.jpg" />
+      <div class="shop-now">
+        <a href="#" class="button" id="button1"> SHOP NOW </a>
+      </div>
+    </div>
+    <p id="headerText">NEW COLLECTION: FALL 2021</p>
+    <div class="container">
+      <p class="section1">BACK IN STOCK</p>
+    </div>
+    <!--Catalog slider-->
+    <section class="slider">
+      <ul id="autoWidth" class="cs-hidden">
+        <!--1-->
+        <li class="item-a">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image1.jpeg" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Retroverse Sunglasses</h3>
+              </div>
+              <p class="price2">$9</p>
+            </div>
+          </div>
+        </li>
+        <!--2-->
+        <li class="item-b">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image3.jpeg" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Cow Pants</h3>
+              </div>
+              <p class="price2">$39</p>
+            </div>
+          </div>
+        </li>
+        <!--3-->
+        <li class="item-c">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image5.jpeg" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Cropped Sweater Set</h3>
+              </div>
+              <p class="price2">$23</p>
+            </div>
+          </div>
+        </li>
+        <!--4-->
+        <li class="item-d">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image7.jpeg" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Face Stickers 10pc</h3>
+              </div>
+              <p class="price2">$9</p>
+            </div>
+          </div>
+        </li>
+        <!--5-->
+        <li class="item-e">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image9.jfif" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Bubbly Mermaid Top</h3>
+              </div>
+              <p class="price2">$29</p>
+            </div>
+          </div>
+        </li>
+        <!--6-->
+        <li class="item-f">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image11.jpeg" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Eyecatch Sequin Coat</h3>
+              </div>
+              <p class="price2">$39</p>
+            </div>
+          </div>
+        </li>
+        <!--7-->
+        <li class="item-g">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image13.jpeg" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Cyberpunk Sunglasses</h3>
+              </div>
+              <p class="price2">$13</p>
+            </div>
+          </div>
+        </li>
+        <!--8-->
+        <li class="item-h">
+          <div class="box">
+            <div class="slide-img">
+              <img src="img/image15.jpeg" />
+              <div class="overlay">
+                <a class="buy-btn" href="#">BUY NOW</a>
+              </div>
+            </div>
+            <div class="detail-box">
+              <div class="type">
+                <h3>Striking Leather Pants</h3>
+              </div>
+              <p class="price2">$39</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <div class="footer">
+      <p>
+        Footer Placeholder, images from
+        <a href="https://www.pexels.com/">Pexels</a>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
